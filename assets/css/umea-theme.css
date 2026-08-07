@@ -1,0 +1,71 @@
+/* Umeå — medical / clinical projects */
+:root {
+  --umea-fog: #e4e9ee;
+  --umea-mist: #f4f6f8;
+  --umea-water: #6a7f90;
+  --umea-steel: #3e4f5c;
+  --umea-pine: #4a5c52;
+  --umea-ink: #2a333a;
+}
+
+body, body.quarto-light {
+  font-family: "Source Sans 3", "Segoe UI", sans-serif !important;
+  background:
+    linear-gradient(180deg, #cfd8e0 0%, var(--umea-fog) 35%, var(--umea-mist) 100%) !important;
+  color: var(--umea-ink) !important;
+}
+
+:root {
+  --bs-body-bg: var(--umea-mist) !important;
+  --bs-body-color: var(--umea-ink) !important;
+  --bs-link-color: var(--umea-water) !important;
+  --bs-link-hover-color: var(--umea-steel) !important;
+  --bs-primary: var(--umea-steel) !important;
+}
+
+#quarto-content, .content {
+  background: transparent !important;
+  color: var(--umea-ink) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Libre Baskerville", Georgia, serif !important;
+  color: var(--umea-steel) !important;
+  border-bottom: none !important;
+}
+
+.navbar {
+  background: var(--umea-steel) !important;
+  border-bottom: 2px solid var(--umea-water) !important;
+}
+
+.navbar-brand, .navbar .nav-link {
+  color: var(--umea-mist) !important;
+}
+
+a { color: var(--umea-water); }
+a:hover { color: var(--umea-steel); }
+
+.place-arrive img {
+  width: 100%;
+  max-height: 48vh;
+  object-fit: cover;
+  display: block;
+  opacity: 0.95;
+}
+
+.place-arrive figcaption {
+  color: var(--umea-water);
+  font-size: 0.85rem;
+}
+
+.stub-note {
+  border-left-color: var(--umea-water);
+  background: rgba(106, 127, 144, 0.12);
+  color: var(--umea-ink);
+}
+
+.footer, .nav-footer {
+  background: var(--umea-steel) !important;
+  color: var(--umea-mist) !important;
+}

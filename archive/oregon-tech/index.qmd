@@ -1,0 +1,12 @@
+---
+title: "Oregon Tech archive"
+subtitle: "Past courses — link out only"
+---
+
+Past teaching at the Oregon Institute of Technology is **not** restyled on this hub. Use the existing external site when available.
+
+::: {.stub-note}
+**Link-only.** No Anza, Valley, or Humboldt place theme on this page. Add the canonical Oregon Tech URL here when confirmed.
+:::
+
+[← Teaching](../../teaching/index.qmd)

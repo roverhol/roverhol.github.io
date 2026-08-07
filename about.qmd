@@ -1,0 +1,22 @@
+---
+title: "About"
+subtitle: "Path, places, and contact"
+---
+
+I teach statistics and data science at [Cal Poly Humboldt](https://www.humboldt.edu), California's newest polytechnic university. I hold a Ph.D. in mathematics from UC San Diego, a B.S. in mathematics from Cal Poly San Luis Obispo, and an A.S. in mathematics from Bakersfield Community College.
+
+Previously I taught at the Oregon Institute of Technology and worked as a statistician at UC San Diego's Clinical and Translational Research Institute, Ghent University (Belgium), and Umeå University (Sweden).
+
+My applied work focuses on *appropriate* uses of computing: connecting available data with research and decision-making needs, and preferring the simplest robust method that works well enough. I am interested in causal inference and machine learning.
+
+## Contact
+
+- **Email:** rho3 at humboldt.edu
+- **Office:** BSS 334
+- **Department:** [Mathematics, Cal Poly Humboldt](https://www.humboldt.edu/mathematics)
+
+## Elsewhere on this hub
+
+- [Projects](projects/index.qmd)
+- [Teaching](teaching/index.qmd)
+- [Learning](self-study/index.qmd)

@@ -1,0 +1,87 @@
+/* Library — open materials (dark scholarly; Humboldt family) */
+:root {
+  --lib-dark: #2d1810;
+  --lib-medium: #4a2c20;
+  --lib-sand: #f5f5dc;
+  --lib-glow: #c4a574;
+  --lib-link: #b8c4a0;
+  --lib-accent: #d2691e;
+}
+
+body, body.quarto-light, body.quarto-dark {
+  font-family: "Source Sans 3", "Segoe UI", sans-serif !important;
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(196, 165, 116, 0.18), transparent 55%),
+    var(--lib-dark) !important;
+  color: var(--lib-sand) !important;
+}
+
+:root {
+  --bs-body-bg: var(--lib-dark) !important;
+  --bs-body-color: var(--lib-sand) !important;
+  --bs-link-color: var(--lib-link) !important;
+  --bs-link-hover-color: var(--lib-glow) !important;
+  --bs-primary: var(--lib-medium) !important;
+}
+
+#quarto-content, .content {
+  background: transparent !important;
+  color: var(--lib-sand) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Libre Baskerville", Georgia, serif !important;
+  color: var(--lib-sand) !important;
+  border-bottom: 1px solid rgba(196, 165, 116, 0.35) !important;
+  padding-bottom: 0.4rem !important;
+}
+
+.navbar {
+  background: linear-gradient(135deg, var(--lib-dark), var(--lib-medium)) !important;
+  border-bottom: 2px solid var(--lib-glow) !important;
+}
+
+.navbar-brand, .navbar .nav-link {
+  color: var(--lib-sand) !important;
+}
+
+.navbar .nav-link:hover {
+  color: var(--lib-glow) !important;
+}
+
+a { color: var(--lib-link); }
+a:hover { color: var(--lib-glow); }
+
+.place-arrive img {
+  width: 100%;
+  max-height: 48vh;
+  object-fit: cover;
+  display: block;
+  mask-image: linear-gradient(to bottom, #000 70%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, #000 70%, transparent 100%);
+}
+
+.place-arrive figcaption,
+.hub-figure figcaption {
+  color: rgba(245, 245, 220, 0.7);
+  font-size: 0.85rem;
+}
+
+.editorial-index li {
+  border-color: rgba(196, 165, 116, 0.25) !important;
+}
+
+.editorial-index .title { color: var(--lib-sand); }
+.editorial-index .meta { color: rgba(245, 245, 220, 0.65); }
+.editorial-index .blurb { color: rgba(245, 245, 220, 0.85); }
+
+.stub-note {
+  border-left-color: var(--lib-glow);
+  background: rgba(74, 44, 32, 0.6);
+  color: var(--lib-sand);
+}
+
+.footer, .nav-footer {
+  background: #1a0e0a !important;
+  color: var(--lib-sand) !important;
+}

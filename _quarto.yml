@@ -1,0 +1,41 @@
+project:
+  type: website
+  title: "Rosanna Overholser"
+  render:
+    - "**/*.qmd"
+    - "!docs/**"
+
+website:
+  title: "Rosanna Overholser"
+  site-url: https://roverhol.github.io
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects/index.qmd
+        text: Projects
+      - href: teaching/index.qmd
+        text: Teaching
+      - href: self-study/index.qmd
+        text: Learning
+      - href: misc/index.qmd
+        text: Misc
+  page-footer:
+    left: "Rosanna Overholser · Applied statistics & machine learning"
+    right: "Built with [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme: litera
+    css: assets/css/valley-theme.css
+    toc: false
+    page-layout: article
+    link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">

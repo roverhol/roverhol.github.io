@@ -1,0 +1,72 @@
+/* Anza-Borrego — Misc / overflow */
+:root {
+  --anza-sand: #f0e3c8;
+  --anza-paper: #f7efe0;
+  --anza-ochre: #c4843a;
+  --anza-ridge: #8a5a32;
+  --anza-shadow: #4a3428;
+  --anza-sky: #6f8fad;
+  --anza-ink: #3a2c22;
+}
+
+body, body.quarto-light {
+  font-family: "Source Sans 3", "Segoe UI", sans-serif !important;
+  background:
+    linear-gradient(180deg, #9bb4c9 0%, var(--anza-sand) 28%, var(--anza-paper) 100%) !important;
+  color: var(--anza-ink) !important;
+}
+
+:root {
+  --bs-body-bg: var(--anza-paper) !important;
+  --bs-body-color: var(--anza-ink) !important;
+  --bs-link-color: var(--anza-ridge) !important;
+  --bs-link-hover-color: var(--anza-ochre) !important;
+  --bs-primary: var(--anza-shadow) !important;
+}
+
+#quarto-content, .content {
+  background: transparent !important;
+  color: var(--anza-ink) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Libre Baskerville", Georgia, serif !important;
+  color: var(--anza-shadow) !important;
+  border-bottom: none !important;
+}
+
+.navbar {
+  background: var(--anza-shadow) !important;
+  border-bottom: 2px solid var(--anza-ochre) !important;
+}
+
+.navbar-brand, .navbar .nav-link {
+  color: var(--anza-paper) !important;
+}
+
+a { color: var(--anza-ridge); }
+a:hover { color: var(--anza-ochre); }
+
+.place-arrive img {
+  width: 100%;
+  max-height: 48vh;
+  object-fit: cover;
+  object-position: center 40%;
+  display: block;
+}
+
+.place-arrive figcaption {
+  color: var(--anza-ridge);
+  font-size: 0.85rem;
+}
+
+.stub-note {
+  border-left-color: var(--anza-ochre);
+  background: rgba(196, 132, 58, 0.12);
+  color: var(--anza-ink);
+}
+
+.footer, .nav-footer {
+  background: var(--anza-shadow) !important;
+  color: var(--anza-paper) !important;
+}

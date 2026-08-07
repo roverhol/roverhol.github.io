@@ -1,0 +1,16 @@
+---
+title: "Learning"
+subtitle: "Self-paced paths"
+---
+
+::: {.place-arrive}
+![Winding road toward Sierra mountains](../assets/images/sierra-road-greg-bulla-yiTpm2k-5jE.png)
+
+Photo by [Greg Bulla](https://unsplash.com/@gregbulla) on [Unsplash](https://unsplash.com/photos/gray-asphalt-road-between-brown-mountains-during-daytime-yiTpm2k-5jE).
+:::
+
+Self-study materials for independent learners—the road toward the range, not a course roster.
+
+::: {.stub-note}
+**Stub.** Self-paced modules will be added in an intake pass. No fabricated curriculum here.
+:::

@@ -1,0 +1,232 @@
+/* San Joaquin Valley — personal hub default */
+:root {
+  --valley-dust: #e8e0d4;
+  --valley-paper: #f3eee6;
+  --valley-earth: #6b5a45;
+  --valley-oil: #3d342c;
+  --valley-ag: #6a7348;
+  --valley-toll: #8a5a4a;
+  --valley-road: #c4b8a5;
+  --valley-ink: #2a241c;
+  --valley-muted: #7a6f60;
+}
+
+body, body.quarto-light {
+  font-family: "Source Sans 3", "Segoe UI", sans-serif !important;
+  background:
+    linear-gradient(180deg, rgba(243, 238, 230, 0.92), rgba(232, 224, 212, 0.98)),
+    repeating-linear-gradient(
+      -12deg,
+      transparent,
+      transparent 18px,
+      rgba(107, 90, 69, 0.03) 18px,
+      rgba(107, 90, 69, 0.03) 19px
+    ) !important;
+  background-color: var(--valley-paper) !important;
+  color: var(--valley-ink) !important;
+}
+
+:root {
+  --bs-body-bg: var(--valley-paper) !important;
+  --bs-body-color: var(--valley-ink) !important;
+  --bs-link-color: var(--valley-ag) !important;
+  --bs-link-hover-color: var(--valley-toll) !important;
+  --bs-primary: var(--valley-oil) !important;
+}
+
+#quarto-content,
+.quarto-container,
+.content {
+  background-color: transparent !important;
+  color: var(--valley-ink) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Libre Baskerville", Georgia, serif !important;
+  color: var(--valley-oil) !important;
+  border-bottom: none !important;
+  letter-spacing: -0.01em;
+}
+
+h1.title {
+  font-size: clamp(2.2rem, 5vw, 3.4rem) !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.35rem !important;
+}
+
+.subtitle {
+  font-family: "Source Sans 3", sans-serif !important;
+  color: var(--valley-muted) !important;
+  font-size: 1.15rem !important;
+}
+
+.navbar {
+  background: var(--valley-oil) !important;
+  border-bottom: 2px solid var(--valley-ag) !important;
+}
+
+.navbar-brand,
+.navbar .nav-link {
+  color: var(--valley-dust) !important;
+  font-family: "Source Sans 3", sans-serif !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+  color: #fff !important;
+}
+
+a {
+  color: var(--valley-ag);
+}
+
+a:hover {
+  color: var(--valley-toll);
+}
+
+/* Figure-essay Home */
+.hub-essay {
+  max-width: 42rem;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.hub-essay .lead {
+  font-size: 1.15rem;
+  color: var(--valley-earth);
+}
+
+.hub-figure {
+  margin: 2rem 0 2.5rem;
+}
+
+.hub-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--valley-road);
+  box-shadow: 0 8px 24px rgba(42, 36, 28, 0.12);
+}
+
+.hub-figure figcaption {
+  margin-top: 0.65rem;
+  font-size: 0.9rem;
+  color: var(--valley-muted);
+  font-style: italic;
+}
+
+.hub-pathways {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  border-top: 1px solid var(--valley-road);
+}
+
+.hub-pathways li {
+  border-bottom: 1px solid var(--valley-road);
+  padding: 0.85rem 0;
+}
+
+.hub-pathways a {
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--valley-oil);
+}
+
+.hub-pathways a:hover {
+  color: var(--valley-ag);
+}
+
+.hub-pathways .meta {
+  display: block;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.95rem;
+  font-style: normal;
+  color: var(--valley-muted);
+  margin-top: 0.2rem;
+}
+
+.hub-pathways .num {
+  color: var(--valley-toll);
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.4rem;
+}
+
+.editorial-index {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.editorial-index li {
+  border-top: 1px solid var(--valley-road);
+  padding: 1rem 0;
+}
+
+.editorial-index li:last-child {
+  border-bottom: 1px solid var(--valley-road);
+}
+
+.editorial-index .title {
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 1.15rem;
+  color: var(--valley-oil);
+  text-decoration: none;
+}
+
+.editorial-index .meta {
+  font-size: 0.9rem;
+  color: var(--valley-muted);
+}
+
+.editorial-index .blurb {
+  margin: 0.25rem 0 0;
+  color: var(--valley-earth);
+}
+
+.place-arrive {
+  margin: 0 0 2rem;
+}
+
+.place-arrive img {
+  width: 100%;
+  max-height: 42vh;
+  object-fit: cover;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.place-arrive figcaption {
+  font-size: 0.85rem;
+  color: var(--valley-muted);
+  margin-top: 0.5rem;
+}
+
+.stub-note {
+  border-left: 3px solid var(--valley-ag);
+  padding: 0.75rem 1rem;
+  background: rgba(106, 115, 72, 0.08);
+  color: var(--valley-earth);
+}
+
+.footer,
+.nav-footer {
+  background: var(--valley-oil) !important;
+  color: var(--valley-dust) !important;
+}
+
+.nav-footer a {
+  color: var(--valley-dust) !important;
+}
+
+@media (max-width: 768px) {
+  .hub-essay {
+    max-width: 100%;
+  }
+
+  .place-arrive img {
+    max-height: 36vh;
+  }
+}

@@ -1,0 +1,46 @@
+---
+title: "Rosanna Overholser"
+subtitle: "Applied statistics and machine learning"
+page-layout: article
+toc: false
+---
+
+::: {.hub-essay}
+
+I work where data meets decisions: teaching statistics and data science, building methods that stay as simple as the problem allows, and collaborating on applied questions in clinical and educational settings.
+
+I teach at [Cal Poly Humboldt](https://www.humboldt.edu). Before that I taught at the Oregon Institute of Technology, and I have worked as a statistician at UC San Diego's Clinical and Translational Research Institute, Ghent University, and Umeå University. My training runs from Bakersfield Community College through Cal Poly San Luis Obispo to a Ph.D. in mathematics at UC San Diego.
+
+This site is a personal hub—pathways out to projects, teaching materials, and self-paced learning—not a course portal. Current students should use their LMS for course materials.
+
+:::
+
+::: {.hub-figure}
+![A two-lane highway through the San Joaquin Valley under a wide sky](assets/images/bakersfield-highway-jabez-impano.png)
+
+Photo by [Jabez Impano](https://unsplash.com/@jabezimpano) on [Unsplash](https://unsplash.com/photos/4QxG4S3IM3E).
+:::
+
+## Pathways
+
+::: {.hub-pathways}
+1. [**Projects**](projects/index.qmd) — Built and investigated work, including Statsbert and teaching-innovation tools.
+2. [**Teaching**](teaching/index.qmd) — Courses, open materials for instructors, and Teaching Overview.
+3. [**Learning**](self-study/index.qmd) — Self-paced paths for independent study.
+4. [**Misc**](misc/index.qmd) — Overflow and works in progress.
+:::
+
+## Selected work
+
+| Work | Proof |
+|------|--------|
+| Unsupervised learning for decision support | [Simple major recommender](https://github.com/roverhol/simple_major_recommender) (also in [open materials](materials/index.qmd)) |
+| Statsbert | Listed under [Projects](projects/index.qmd#statsbert) (La Jolla spoke) |
+
+## Contact
+
+- **Email:** rho3 at humboldt.edu
+- **Office:** BSS 334
+- **Department:** [Mathematics, Cal Poly Humboldt](https://www.humboldt.edu/mathematics)
+
+[About →](about.qmd)

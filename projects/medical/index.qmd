@@ -1,0 +1,18 @@
+---
+title: "Medical / clinical projects"
+subtitle: "Umeå"
+---
+
+::: {.place-arrive}
+![A bridge over water in fog](../../assets/images/umea-bridge-fog-axel-josefsson-_ILBhImc210.png)
+
+Photo by [Axel Josefsson](https://unsplash.com/@axeljosefsson) on [Unsplash](https://unsplash.com/photos/a-bridge-over-a-body-of-water-covered-in-fog-_ILBhImc210).
+:::
+
+Northern light for medical and clinical collaboration—calm, not hospital-cliché UI.
+
+::: {.stub-note}
+**Stub.** Case pages and links will be added in an intake pass. No invented project claims here.
+:::
+
+[← Projects](../index.qmd)

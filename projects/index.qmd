@@ -1,0 +1,22 @@
+---
+title: "Projects"
+subtitle: "Built, solved, investigated"
+---
+
+Directory of project doors. The index uses the Valley hub style; individual spokes keep their own place themes (for example La Jolla for Statsbert, Umeå for medical work).
+
+::: {.editorial-index}
+- **[Statsbert](#statsbert)**{id="statsbert"}  
+  {.meta}Product / experience · La Jolla  
+  {.blurb}Linked from this Projects hub. Place theme and establishing photo live on the Statsbert site.
+- **[Simple major recommender](https://github.com/roverhol/simple_major_recommender)**  
+  {.meta}Teaching innovation · GitHub  
+  {.blurb}Unsupervised-learning major recommender (“Learning without labels”). Also listed under [open materials](../materials/index.qmd) for instructors.
+- **[Medical / clinical](medical/index.qmd)**  
+  {.meta}Umeå · stub  
+  {.blurb}Slot for medical collaboration work. Establishing still and theme ready; case pages to follow.
+:::
+
+::: {.stub-note}
+Additional project types (for example NYC, Ghent, Toronto place themes) will be added as those piles take shape.
+:::
