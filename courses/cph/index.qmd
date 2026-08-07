@@ -14,23 +14,21 @@ Public course sites for students and visitors. Current students should still use
 ## Current / upcoming
 
 ::: {.editorial-index}
-- **[STAT 109: Introductory Biostatistics](https://roverhol.github.io/stat109-public/)**  
-  {.meta}Spring 2026 · Cal Poly Humboldt  
-  {.blurb}Statistical methods and R for students in the natural and health sciences.
-- **[DATA 311: Applied Data Analysis](https://roverhol.github.io/data-311-public/)**  
-  {.meta}Fall 2025 · Cal Poly Humboldt  
-  {.blurb}Data cleaning, visualization, and predictive modeling on real problems.
+1. [**STAT 109: Introductory Biostatistics**](https://roverhol.github.io/stat109-public/)  
+   Spring 2026 · Cal Poly Humboldt — Statistical methods and R for students in the natural and health sciences.
+
+2. [**DATA 311: Applied Data Analysis**](https://roverhol.github.io/data-311-public/)  
+   Fall 2025 · Cal Poly Humboldt — Data cleaning, visualization, and predictive modeling on real problems.
 :::
 
 ## Also available
 
 ::: {.editorial-index}
-- **[DATA 322](https://roverhol.github.io/data322-public/)**  
-  {.meta}Public course site  
-  {.blurb}Live public Pages site for DATA 322.
-- **[STAT 109 (async portfolio)](https://roverhol.github.io/stat109-async-portfolio/)**  
-  {.meta}Async / portfolio  
-  {.blurb}Asynchronous STAT 109 materials portfolio.
+1. [**DATA 322**](https://roverhol.github.io/data322-public/)  
+   Public course site for DATA 322.
+
+2. [**STAT 109 (async portfolio)**](https://roverhol.github.io/stat109-async-portfolio/)  
+   Asynchronous STAT 109 materials portfolio.
 :::
 
 ::: {.stub-note}

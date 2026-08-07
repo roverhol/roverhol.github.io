@@ -12,9 +12,8 @@ Photo by [Bree Anne](https://unsplash.com/@breebuddy) on [Unsplash](https://unsp
 Shareable resources for instructors. Dark library chrome; materials grow via intake, not mass upload.
 
 ::: {.editorial-index}
-- **[Simple major recommender](https://github.com/roverhol/simple_major_recommender)**  
-  {.meta}Unsupervised learning · GitHub  
-  {.blurb}Teaching materials for an unsupervised-learning major recommender (“Learning without labels”). Also showcased under [Projects](../projects/index.qmd).
+1. [**Simple major recommender**](https://github.com/roverhol/simple_major_recommender)  
+   Unsupervised learning · GitHub — Teaching materials for an unsupervised-learning major recommender (“Learning without labels”). Also showcased under [Projects](../projects/index.qmd).
 :::
 
 ::: {.stub-note}

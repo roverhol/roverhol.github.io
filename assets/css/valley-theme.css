@@ -169,20 +169,16 @@ a:hover {
   border-bottom: 1px solid var(--valley-road);
 }
 
-.editorial-index .title {
+.editorial-index strong a,
+.editorial-index a {
   font-family: "Libre Baskerville", Georgia, serif;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   color: var(--valley-oil);
   text-decoration: none;
 }
 
-.editorial-index .meta {
-  font-size: 0.9rem;
-  color: var(--valley-muted);
-}
-
-.editorial-index .blurb {
-  margin: 0.25rem 0 0;
+.editorial-index li {
+  line-height: 1.55;
   color: var(--valley-earth);
 }
 
