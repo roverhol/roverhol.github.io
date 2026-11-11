@@ -24,7 +24,7 @@ website:
       - href: misc/index.qmd
         text: Misc
   page-footer:
-    left: "Rosanna Overholser · Applied statistics & machine learning"
+    left: "© Rosanna Overholser. All rights reserved."
     right: "Built with [Quarto](https://quarto.org/)"
 
 format:

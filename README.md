@@ -2,6 +2,8 @@
 
 Source for **https://roverhol.github.io/** (GitHub user site).
 
+© Rosanna Overholser. All rights reserved. See [LICENSE](LICENSE).
+
 Teaching Overview remains a separate project site:  
 **https://roverhol.github.io/teaching-overview/**
 
