@@ -1,6 +1,5 @@
 ---
-title: "Open materials"
-subtitle: "For other teachers"
+title: "Library of Teaching Resources for Teachers"
 ---
 
 ::: {.place-arrive}
@@ -9,15 +8,8 @@ subtitle: "For other teachers"
 Photo by [Bree Anne](https://unsplash.com/@breebuddy) on [Unsplash](https://unsplash.com/photos/a-large-library-filled-with-lots-of-books-m7F6iPPYlag).
 :::
 
-Shareable resources for instructors. Dark library chrome; materials grow via intake, not mass upload.
-
 ::: {.editorial-index}
-1. [**Simple major recommender**](https://github.com/roverhol/simple_major_recommender)  
-   Unsupervised learning · GitHub — Teaching materials for an unsupervised-learning major recommender (“Learning without labels”). Also showcased under [Projects](../projects/index.qmd).
-:::
-
-::: {.stub-note}
-**Slots for later intake:** causal inference module for intro stats; Take 5 projects; physical demonstrations; JSM proceedings paper. Classified in `docs/intake.md`—not uploaded yet.
+1. [**Simple major recommender**](https://github.com/roverhol/simple_major_recommender)
 :::
 
 [← Teaching](../teaching/index.qmd)

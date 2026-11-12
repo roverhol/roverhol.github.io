@@ -8,8 +8,7 @@ Course inventory and instructor-facing materials. Current Cal Poly Humboldt stud
 1. [**CPH courses**](../courses/cph/index.qmd)  
    Public Cal Poly Humboldt course sites.
 
-2. [**Open materials**](../materials/index.qmd)  
-   Shareable resources for other teachers.
+2. [**Library of Teaching Resources for Teachers**](../materials/index.qmd)
 :::
 
 ## Oregon Tech archive
