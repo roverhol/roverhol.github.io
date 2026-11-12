@@ -1,22 +1,19 @@
 ---
 title: "About"
-subtitle: "Path, places, and contact"
 ---
 
-I teach statistics and data science at [Cal Poly Humboldt](https://www.humboldt.edu), California's newest polytechnic university. I hold a Ph.D. in mathematics from UC San Diego, a B.S. in mathematics from Cal Poly San Luis Obispo, and an A.S. in mathematics from Bakersfield Community College.
+I was born in Bakersfield, California, a city famous for oil production, agriculture, and growing an astonishing number of carrots. Part of my childhood was spent in a town of fewer than 200 people in the Sequoia National Forest.
 
-Previously I taught at the Oregon Institute of Technology and worked as a statistician at UC San Diego's Clinical and Translational Research Institute, Ghent University (Belgium), and Umeå University (Sweden).
+My path through higher education began at Bakersfield College, where I earned an A.S. in mathematics, followed by a B.S. at Cal Poly San Luis Obispo and a Ph.D. at UC San Diego. I've been fortunate to experience all three of California's public higher education systems as a student, and I'm grateful to the state for making these educational opportunities available.
 
-My applied work focuses on *appropriate* uses of computing: connecting available data with research and decision-making needs, and preferring the simplest robust method that works well enough. I am interested in causal inference and machine learning.
+Since then, my work has taken me to the University of Toronto Mississauga, Ghent University in Belgium, Umeå University in Sweden, Oregon Institute of Technology, and now [Cal Poly Humboldt](https://www.humboldt.edu), where I teach mathematics, statistics, and data science.
+
+Along the way, I've worked on statistical methods and applications in medical research, developed an interest in causal inference and machine learning, and spent a great deal of time designing courses and projects. I enjoy figuring out how to approach a problem, choosing methods that make sense for the question, and making complicated ideas easier to understand and use.
+
+Outside of work, I enjoy reading, walking, playing the violin, and making and eating cookies.
 
 ## Contact
 
-- **Email:** rho3 at humboldt.edu
+- **Email:** rho3 at humboldt.edu (current) or rosanna.haut at gmail.com (personal)
 - **Office:** BSS 334
 - **Department:** [Mathematics, Cal Poly Humboldt](https://www.humboldt.edu/mathematics)
-
-## Elsewhere on this hub
-
-- [Projects](projects/index.qmd)
-- [Teaching](teaching/index.qmd)
-- [Learning](self-study/index.qmd)

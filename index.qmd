@@ -1,17 +1,18 @@
 ---
 title: "Rosanna Overholser"
-subtitle: "Applied statistics and machine learning"
 page-layout: article
 toc: false
 ---
 
 ::: {.hub-essay}
 
-I work where data meets decisions: teaching statistics and data science, building methods that stay as simple as the problem allows, and collaborating on applied questions in clinical and educational settings.
+I enjoy understanding how things work, solving problems, and developing learning experiences that help other people do the same.
 
-I teach at [Cal Poly Humboldt](https://www.humboldt.edu). Before that I taught at the Oregon Institute of Technology, and I have worked as a statistician at UC San Diego's Clinical and Translational Research Institute, Ghent University, and Umeå University. My training runs from Bakersfield Community College through Cal Poly San Luis Obispo to a Ph.D. in mathematics at UC San Diego.
+My background is in mathematics, and my work spans statistics, computing, and education. I've worked on statistical methods and applications in medical research, developed software to support statistical reasoning, and designed courses and projects that help students learn by working on real problems. I'm particularly interested in how we use data and evidence to make decisions, and in making technical ideas interesting and accessible.
 
-This site is a personal hub—pathways out to projects, teaching materials, and self-paced learning—not a course portal. Current students should use their LMS for course materials.
+I currently teach mathematics, statistics, and data science at [Cal Poly Humboldt](https://www.humboldt.edu). Previously, I taught at Oregon Institute of Technology and the University of Toronto Mississauga, and worked as a statistician at UC San Diego, Ghent University in Belgium, and Umeå University in Sweden. I earned my Ph.D. in mathematics at UC San Diego.
+
+This site brings together my research, projects, teaching materials, and things I'm learning.
 
 :::
 
@@ -24,22 +25,22 @@ Photo by [Jabez Impano](https://unsplash.com/@jabezimpano) on [Unsplash](https:/
 ## Pathways
 
 ::: {.hub-pathways}
-1. [**Projects**](projects/index.qmd) — Built and investigated work, including Statsbert and teaching-innovation tools.
-2. [**Teaching**](teaching/index.qmd) — Courses, open materials for instructors, and Teaching Overview.
+1. [**Projects**](projects/index.qmd) — Research, software, and other projects, both completed and in progress.
+2. [**Teaching**](teaching/index.qmd) — Course materials for students and open resources for instructors.
 3. [**Learning**](self-study/index.qmd) — Self-paced paths for independent study.
-4. [**Misc**](misc/index.qmd) — Overflow and works in progress.
+4. [**Misc**](misc/index.qmd) — Other interests and experiments.
 :::
 
 ## Selected work
 
-| Work | Proof |
-|------|--------|
-| Unsupervised learning for decision support | [Simple major recommender](https://github.com/roverhol/simple_major_recommender) (also in [open materials](materials/index.qmd)) |
-| Statsbert | Listed under [Projects](projects/index.qmd#statsbert) (La Jolla spoke) |
+| Work | Explore |
+|------|---------|
+| Unsupervised learning project | [Simple major recommender](https://github.com/roverhol/simple_major_recommender)  |
+| Statsbert | [Project overview](projects/index.qmd#statsbert) |
 
 ## Contact
 
-- **Email:** rho3 at humboldt.edu
+- **Email:** rho3 at humboldt.edu (current) or rosanna.haut at gmail.com (personal)
 - **Office:** BSS 334
 - **Department:** [Mathematics, Cal Poly Humboldt](https://www.humboldt.edu/mathematics)
 
