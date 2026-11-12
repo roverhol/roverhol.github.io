@@ -1,6 +1,5 @@
 ---
 title: "CPH courses"
-subtitle: "Cal Poly Humboldt"
 ---
 
 ::: {.place-arrive}
@@ -14,11 +13,17 @@ Public course sites for students and visitors. Current students should still use
 ## Current / upcoming
 
 ::: {.editorial-index}
-1. [**STAT 109: Introductory Biostatistics**](https://roverhol.github.io/stat109-public/)  
-   Spring 2026 · Cal Poly Humboldt — Statistical methods and R for students in the natural and health sciences.
+1. [**MATH 107: Linear Algebra**](https://roverhol.github.io/math107/)  
+   Cal Poly Humboldt — Public course site.
 
-2. [**DATA 311: Applied Data Analysis**](https://roverhol.github.io/data-311-public/)  
+2. [**DATA 422: Advanced Data Science Methods and Ethics**](https://roverhol.github.io/data422/)  
+   Cal Poly Humboldt — Public course site.
+
+3. [**DATA 311: Applied Data Analysis**](https://roverhol.github.io/data-311-public/)  
    Fall 2025 · Cal Poly Humboldt — Data cleaning, visualization, and predictive modeling on real problems.
+
+4. [**STAT 109: Introductory Biostatistics**](https://roverhol.github.io/stat109-public/)  
+   Spring 2026 · Cal Poly Humboldt — Statistical methods and R for students in the natural and health sciences.
 :::
 
 ## Also available

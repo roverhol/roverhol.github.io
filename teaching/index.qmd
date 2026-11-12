@@ -1,20 +1,15 @@
 ---
 title: "Teaching"
-subtitle: "Courses, materials, and archives"
 ---
 
-Education doors—not the whole site identity. Current Cal Poly Humboldt students should use the LMS for this term’s materials.
+Course inventory and instructor-facing materials. Current Cal Poly Humboldt students should use the LMS for this term’s materials; public course sites are linked below.
 
 ::: {.editorial-index}
 1. [**CPH courses**](../courses/cph/index.qmd)  
-   Humboldt · live public course sites — Inventory of current and recent public course pages.
+   Public Cal Poly Humboldt course sites.
 
 2. [**Open materials**](../materials/index.qmd)  
-   Library · for other teachers — Shareable teaching resources, including the major recommender.
-
-3. [**Teaching Overview site**](https://roverhol.github.io/teaching-overview/)  
-   External spoke — Existing Teaching Overview project site (kept separate from this personal hub).
-
-4. [**Oregon Tech archive**](../archive/oregon-tech/index.qmd)  
-   Link out only — Past courses—external link, no place theme on this hub.
+   Shareable resources for other teachers.
 :::
+
+## Oregon Tech archive
