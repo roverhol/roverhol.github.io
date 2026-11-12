@@ -1,16 +1,9 @@
 ---
 title: "Misc"
-subtitle: "Holding pen"
 ---
 
 ::: {.place-arrive}
 ![Sun over desert badlands](../assets/images/anza-borrego-badlands-john-ko-g8KfLtNuqpo.png)
 
 Photo by [john ko](https://unsplash.com/@jko001) on [Unsplash](https://unsplash.com/photos/the-sun-shines-brightly-over-a-desert-landscape-g8KfLtNuqpo).
-:::
-
-Overflow for unclaimed piles—parked in the open until they earn a door elsewhere.
-
-::: {.stub-note}
-**Stub.** Items land here via intake classification (`docs/intake.md`) before moving to Projects, Teaching, or Learning.
 :::
