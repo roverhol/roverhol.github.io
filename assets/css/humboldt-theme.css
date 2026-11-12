@@ -242,13 +242,49 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Links */
 a {
-  color: var(--sage-green);
+  color: var(--sage-green) !important;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--redwood-light);
+  color: var(--redwood-light) !important;
   text-decoration: underline;
+}
+
+/* Hub editorial lists on Humboldt pages */
+.editorial-index li {
+  color: var(--sand-light) !important;
+  border-color: rgba(245, 245, 220, 0.25) !important;
+}
+
+.editorial-index a,
+.editorial-index strong a {
+  color: var(--sage-green) !important;
+}
+
+.editorial-index a:hover {
+  color: var(--redwood-light) !important;
+}
+
+.stub-note {
+  border-left: 3px solid var(--sage-green);
+  background: rgba(139, 69, 19, 0.35);
+  color: var(--sand-light) !important;
+}
+
+.place-arrive figcaption {
+  color: var(--fog-gray) !important;
+}
+
+.nav-footer,
+.footer {
+  background: var(--redwood-dark) !important;
+  color: var(--sand-light) !important;
+}
+
+.nav-footer a,
+.footer a {
+  color: var(--sand-light) !important;
 }
 
 /* Callouts */

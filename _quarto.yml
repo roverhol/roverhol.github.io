@@ -29,10 +29,9 @@ website:
 
 format:
   html:
-    theme: litera
-    css: assets/css/valley-theme.css
+    theme: cosmo
     toc: false
-    page-layout: article
+    page-layout: full
     link-external-newwindow: true
     include-in-header:
       - text: |

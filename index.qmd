@@ -1,7 +1,9 @@
 ---
 title: "Rosanna Overholser"
-page-layout: article
 toc: false
+format:
+  html:
+    css: assets/css/valley-theme.css
 ---
 
 ::: {.hub-essay}

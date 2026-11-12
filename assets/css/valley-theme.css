@@ -1,168 +1,270 @@
-/* San Joaquin Valley — personal hub default */
+/* San Joaquin Valley — personal hub
+   Strong place chrome (course-site depth): dust, earth, ag green, highway figure. */
+
 :root {
   --valley-dust: #e8e0d4;
   --valley-paper: #f3eee6;
+  --valley-field: #d9cfc0;
   --valley-earth: #6b5a45;
   --valley-oil: #3d342c;
+  --valley-oil-deep: #2a241c;
   --valley-ag: #6a7348;
+  --valley-ag-bright: #7f8a55;
   --valley-toll: #8a5a4a;
   --valley-road: #c4b8a5;
   --valley-ink: #2a241c;
   --valley-muted: #7a6f60;
+  --valley-link: #5a6440;
 }
 
-body, body.quarto-light {
+/* Base — full-page atmosphere, not a white Bootstrap slab */
+body,
+body.quarto-light,
+body.quarto-dark {
   font-family: "Source Sans 3", "Segoe UI", sans-serif !important;
   background:
-    linear-gradient(180deg, rgba(243, 238, 230, 0.92), rgba(232, 224, 212, 0.98)),
-    repeating-linear-gradient(
-      -12deg,
-      transparent,
-      transparent 18px,
-      rgba(107, 90, 69, 0.03) 18px,
-      rgba(107, 90, 69, 0.03) 19px
-    ) !important;
-  background-color: var(--valley-paper) !important;
+    radial-gradient(ellipse at 50% -10%, rgba(138, 90, 74, 0.12), transparent 55%),
+    linear-gradient(180deg, #cfc4b2 0%, var(--valley-field) 28%, var(--valley-dust) 100%) !important;
+  background-color: var(--valley-dust) !important;
   color: var(--valley-ink) !important;
 }
 
 :root {
-  --bs-body-bg: var(--valley-paper) !important;
+  --bs-body-bg: var(--valley-dust) !important;
   --bs-body-color: var(--valley-ink) !important;
-  --bs-link-color: var(--valley-ag) !important;
+  --bs-link-color: var(--valley-link) !important;
   --bs-link-hover-color: var(--valley-toll) !important;
   --bs-primary: var(--valley-oil) !important;
+  --bs-border-color: var(--valley-road) !important;
 }
 
-#quarto-content,
-.quarto-container,
-.content {
+.quarto-light,
+.quarto-light body,
+.quarto-light #quarto-content {
   background-color: transparent !important;
   color: var(--valley-ink) !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+#quarto-content,
+.quarto-container,
+.content,
+.column-page-left,
+.page-columns,
+.page-columns .content {
+  background-color: transparent !important;
+  color: var(--valley-ink) !important;
+}
+
+.container,
+.container-fluid {
+  background-color: transparent !important;
+}
+
+/* Content panel — same “raised surface” idea as course sites */
+#quarto-content > * {
+  background: var(--valley-paper) !important;
+  color: var(--valley-ink) !important;
+  padding: 2rem 2.25rem !important;
+  border-radius: 6px !important;
+  border: 1px solid rgba(61, 52, 44, 0.12) !important;
+  box-shadow: 0 10px 28px rgba(42, 36, 28, 0.14) !important;
+  margin: 1.25rem 0 2rem !important;
+}
+
+@media (max-width: 768px) {
+  #quarto-content > * {
+    padding: 1.25rem 1.1rem !important;
+    margin: 0.75rem 0 1.5rem !important;
+  }
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6,
+.title,
+.quarto-title .title,
+header#title-block-header .title {
   font-family: "Libre Baskerville", Georgia, serif !important;
-  color: var(--valley-oil) !important;
+  color: var(--valley-oil-deep) !important;
   border-bottom: none !important;
   letter-spacing: -0.01em;
 }
 
-h1.title {
-  font-size: clamp(2.2rem, 5vw, 3.4rem) !important;
+h1.title,
+.quarto-title .title,
+header#title-block-header .title {
+  font-size: clamp(2rem, 4.5vw, 3.1rem) !important;
   font-weight: 700 !important;
   margin-bottom: 0.35rem !important;
 }
 
-.subtitle {
+h2, h3, h4, h5, h6 {
+  margin-top: 2rem !important;
+  border-bottom: 1px solid var(--valley-ag) !important;
+  padding-bottom: 0.4rem !important;
+}
+
+header#title-block-header,
+.page-title {
+  border-bottom: 2px solid var(--valley-toll) !important;
+  padding-bottom: 0.75rem !important;
+  margin-bottom: 1.5rem !important;
+  background: transparent !important;
+}
+
+header#title-block-header h1.title {
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.subtitle,
+.quarto-title .subtitle {
   font-family: "Source Sans 3", sans-serif !important;
   color: var(--valley-muted) !important;
-  font-size: 1.15rem !important;
+  font-size: 1.1rem !important;
 }
 
-.navbar {
-  background: var(--valley-oil) !important;
+p, li {
+  line-height: 1.7;
+}
+
+/* Navbar */
+.navbar,
+.navbar-default,
+.navbar-expand-lg {
+  background: var(--valley-oil-deep) !important;
   border-bottom: 2px solid var(--valley-ag) !important;
+  box-shadow: 0 2px 10px rgba(42, 36, 28, 0.25);
 }
 
-.navbar-brand,
-.navbar .nav-link {
+.navbar-brand {
+  color: var(--valley-dust) !important;
+  font-family: "Libre Baskerville", Georgia, serif !important;
+  font-weight: 700 !important;
+}
+
+.navbar .nav-link,
+.navbar-nav .nav-link {
   color: var(--valley-dust) !important;
   font-family: "Source Sans 3", sans-serif !important;
+  font-weight: 600 !important;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus,
-.navbar .nav-link.active {
+.navbar .nav-link.active,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
   color: #fff !important;
 }
 
+/* Links */
 a {
-  color: var(--valley-ag);
+  color: var(--valley-link) !important;
+  text-decoration: none;
 }
 
 a:hover {
-  color: var(--valley-toll);
+  color: var(--valley-toll) !important;
+  text-decoration: underline;
 }
 
-/* Figure-essay Home */
+/* Home essay + figure */
 .hub-essay {
-  max-width: 42rem;
-  margin: 0 auto;
-  line-height: 1.7;
+  max-width: 44rem;
+  margin: 0 auto 0.5rem;
+  line-height: 1.75;
+  font-size: 1.05rem;
 }
 
-.hub-essay .lead {
-  font-size: 1.15rem;
-  color: var(--valley-earth);
+.hub-essay p {
+  margin-bottom: 1.1rem;
 }
 
 .hub-figure {
-  margin: 2rem 0 2.5rem;
+  margin: 1.75rem 0 2.25rem;
 }
 
-.hub-figure img {
+.hub-figure img,
+.hub-figure .figure-img {
   width: 100%;
   height: auto;
+  max-height: 52vh;
+  object-fit: cover;
+  object-position: center 45%;
   display: block;
   border: 1px solid var(--valley-road);
-  box-shadow: 0 8px 24px rgba(42, 36, 28, 0.12);
+  border-radius: 2px;
+  box-shadow: 0 12px 32px rgba(42, 36, 28, 0.18);
 }
 
-.hub-figure figcaption {
+.hub-figure figcaption,
+.hub-figure + p,
+.hub-figure p {
   margin-top: 0.65rem;
   font-size: 0.9rem;
-  color: var(--valley-muted);
+  color: var(--valley-muted) !important;
   font-style: italic;
 }
 
+/* Pathways — class is on a wrapper div around ol/ul */
 .hub-pathways {
-  list-style: none;
-  padding: 0;
-  margin: 2rem 0;
+  margin: 1.5rem 0 2rem;
+}
+
+.hub-pathways ol,
+.hub-pathways ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
   border-top: 1px solid var(--valley-road);
 }
 
 .hub-pathways li {
   border-bottom: 1px solid var(--valley-road);
-  padding: 0.85rem 0;
+  padding: 0.95rem 0.15rem;
+  color: var(--valley-earth);
 }
 
 .hub-pathways a {
-  font-family: "Libre Baskerville", Georgia, serif;
+  font-family: "Libre Baskerville", Georgia, serif !important;
   font-size: 1.2rem;
-  text-decoration: none;
-  color: var(--valley-oil);
+  text-decoration: none !important;
+  color: var(--valley-oil-deep) !important;
 }
 
 .hub-pathways a:hover {
-  color: var(--valley-ag);
+  color: var(--valley-ag) !important;
+  text-decoration: none !important;
 }
 
-.hub-pathways .meta {
-  display: block;
-  font-family: "Source Sans 3", sans-serif;
-  font-size: 0.95rem;
-  font-style: normal;
-  color: var(--valley-muted);
-  margin-top: 0.2rem;
-}
-
-.hub-pathways .num {
-  color: var(--valley-toll);
-  font-variant-numeric: tabular-nums;
-  margin-right: 0.4rem;
-}
-
+/* Editorial indexes (Teaching doors, etc.) */
 .editorial-index {
-  list-style: none;
-  padding: 0;
-  margin: 1.5rem 0;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 1.5rem 0 !important;
+}
+
+.editorial-index ol,
+.editorial-index ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.editorial-index > ol,
+.editorial-index > ul,
+div.editorial-index > ol,
+div.editorial-index > ul {
+  list-style: none !important;
+  padding: 0 !important;
 }
 
 .editorial-index li {
   border-top: 1px solid var(--valley-road);
-  padding: 1rem 0;
+  padding: 1rem 0.1rem;
+  line-height: 1.55;
+  color: var(--valley-earth) !important;
 }
 
 .editorial-index li:last-child {
@@ -171,58 +273,91 @@ a:hover {
 
 .editorial-index strong a,
 .editorial-index a {
-  font-family: "Libre Baskerville", Georgia, serif;
-  font-size: 1.1rem;
-  color: var(--valley-oil);
-  text-decoration: none;
+  font-family: "Libre Baskerville", Georgia, serif !important;
+  font-size: 1.12rem;
+  color: var(--valley-oil-deep) !important;
+  text-decoration: none !important;
 }
 
-.editorial-index li {
-  line-height: 1.55;
-  color: var(--valley-earth);
+.editorial-index a:hover {
+  color: var(--valley-ag) !important;
 }
 
 .place-arrive {
-  margin: 0 0 2rem;
+  margin: 0 0 1.75rem;
 }
 
 .place-arrive img {
   width: 100%;
-  max-height: 42vh;
+  max-height: 46vh;
   object-fit: cover;
   display: block;
   border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 2px;
 }
 
 .place-arrive figcaption {
   font-size: 0.85rem;
-  color: var(--valley-muted);
+  color: var(--valley-muted) !important;
   margin-top: 0.5rem;
 }
 
 .stub-note {
   border-left: 3px solid var(--valley-ag);
-  padding: 0.75rem 1rem;
-  background: rgba(106, 115, 72, 0.08);
-  color: var(--valley-earth);
+  padding: 0.85rem 1rem;
+  background: rgba(106, 115, 72, 0.1);
+  color: var(--valley-earth) !important;
+  border-radius: 0 4px 4px 0;
 }
 
+/* Tables */
+.table,
+table {
+  color: var(--valley-ink) !important;
+  border-color: var(--valley-road) !important;
+}
+
+.table th,
+table th {
+  background: rgba(106, 115, 72, 0.12) !important;
+  color: var(--valley-oil-deep) !important;
+  border-color: var(--valley-road) !important;
+  font-family: "Source Sans 3", sans-serif !important;
+}
+
+.table td,
+table td {
+  border-color: var(--valley-road) !important;
+}
+
+.table a {
+  color: var(--valley-link) !important;
+}
+
+/* Footer */
 .footer,
 .nav-footer {
-  background: var(--valley-oil) !important;
+  background: var(--valley-oil-deep) !important;
+  color: var(--valley-dust) !important;
+  border-top: 2px solid var(--valley-ag) !important;
+}
+
+.nav-footer a,
+.footer a {
   color: var(--valley-dust) !important;
 }
 
-.nav-footer a {
-  color: var(--valley-dust) !important;
+.nav-footer a:hover,
+.footer a:hover {
+  color: #fff !important;
 }
 
-@media (max-width: 768px) {
-  .hub-essay {
-    max-width: 100%;
-  }
+/* Breadcrumbs / misc chrome */
+.quarto-title-breadcrumbs nav ol .breadcrumb-item a {
+  color: var(--valley-link) !important;
+}
 
-  .place-arrive img {
-    max-height: 36vh;
-  }
+#toc-title,
+.sidebar nav[role="doc-toc"] a {
+  color: var(--valley-earth) !important;
 }
