@@ -1,22 +1,11 @@
 ---
 title: "Projects"
-subtitle: "Built, solved, investigated"
 ---
-
-Directory of project doors. The index uses the Valley hub style; individual spokes keep their own place themes (for example La Jolla for Statsbert, Umeå for medical work).
 
 ## Statsbert {#statsbert}
 
-Product / experience · La Jolla. Linked from this Projects hub—not a top-level Home door. Place theme and establishing photo live on the Statsbert site.
-
-## Simple major recommender
-
-Teaching innovation · [GitHub repository](https://github.com/roverhol/simple_major_recommender). Unsupervised-learning major recommender (“Learning without labels”). Also listed under [open materials](../materials/index.qmd) for instructors.
+Software to support statistical reasoning. Public overview coming soon.
 
 ## Medical / clinical
 
-Umeå · [stub landing](medical/index.qmd). Establishing still and theme ready; case pages to follow.
-
-::: {.stub-note}
-Additional project types (for example NYC, Ghent, Toronto place themes) will be added as those piles take shape.
-:::
+Statistical methods and applications in medical research. Case pages coming soon.
